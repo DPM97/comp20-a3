@@ -71,8 +71,17 @@ hr {
 }
 
 footer {
-  height: 40px;
-  bottom: 40px !important;
+  margin: 0px !important;
+  position: sticky !important;
+  height: 50px !important;
+  width: 100vw !important;
+  background-color: #EAF0CE;
+  bottom: 0px !important;
+  text-align: center;
+}
+
+footer>a {
+  position: relative;
 }
 
 .fa {
@@ -119,5 +128,9 @@ footer {
   .warehouse>div>p {
     font-size: 40px !important;
     margin-top: 100px !important;
+  }
+
+  .interrested>a {
+    font-size: 25px !important;
   }
 }

@@ -5,5 +5,5 @@ Design:
   Business Purpose: Collect/Distribute food to food-insecure people in conneticut.
   Target Demographic: Donors/Volunteers/The people who are in need of the service
 
-1. Probably the actual development process once I got an idea of how I wanted to make the site.
+1. Probably the actual development process once I got an idea of how I wanted to make the site - I had a few issues with styling initially, however, I was able to work them out.
 2. Actually thinking about what business to do & how to populate the pages without taking design elements from the origional site. 

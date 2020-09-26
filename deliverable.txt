@@ -1,0 +1,9 @@
+URL: https://dpm97.github.io/comp20-a3/
+
+Design:
+  Business Name: Connecticut Food Bank
+  Business Purpose: Collect/Distribute food to food-insecure people in conneticut.
+  Target Demographic: Donors/Volunteers/The people who are in need of the service
+
+1. Probably the actual development process once I got an idea of how I wanted to make the site.
+2. Actually thinking about what business to do & how to populate the pages without taking design elements from the origional site. 

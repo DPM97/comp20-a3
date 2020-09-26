@@ -3,21 +3,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-    crossorigin="anonymous"
-  />
-  <style>
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <style>
 
-    .interrested {
-      padding-top: 25px;
-      margin-left: 10%;
-      margin-right: 10%;
-      text-align: center;
-    }
-  </style>
-
+      button {
+        margin: 0 auto;
+        display: block;
+      }
+      
+      .interrested {
+        padding-top: 25px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -43,7 +47,7 @@
       <h1 style="text-align: center; margin-bottom: 100px">
         Together We can Solve Conneticut's Food Crisis
       </h1>
-      <div class="warehouse" style="height: 410px;">
+      <div class="warehouse" style="height: 410px">
         <div
           style="
             margin-right: 10%;
@@ -52,27 +56,55 @@
             color: white;
           "
         >
-          <p style="text-align: center; font-size: 60px; margin-top: 120px; color: brown;">
+          <p
+            style="
+              text-align: center;
+              font-size: 60px;
+              margin-top: 120px;
+              color: brown;
+            "
+          >
             More than 400,000 Connecticut residents are food insecure.
           </p>
         </div>
       </div>
       <div>
-        <p style="text-align: center; font-size: 25px; margin-top: 550px; margin-right: 10%; margin-left: 10%;">
-          At the Connecticut Food Bank, we do everything we can to lower this statistic.
-          In 2019 alone, we distributed enough food to prepare 22.5 million meals to people in need.
+        <p
+          style="
+            text-align: center;
+            font-size: 25px;
+            margin-top: 550px;
+            margin-right: 10%;
+            margin-left: 10%;
+          "
+        >
+          At the Connecticut Food Bank, we do everything we can to lower this
+          statistic. In 2019 alone, we distributed enough food to prepare 22.5
+          million meals to people in need.
         </p>
       </div>
       <div>
         <p style="font-size: 25px" class="interrested">
-          <text style="font-weight: 600; font-size: 30px;">Interrested?</text> Find out more about what we do <a style="font-weight: 600;" href="./services.html">here</a>
+          <text style="font-weight: 600; font-size: 30px">Interrested?</text>
+          Find out more about what we do
+          <a style="font-weight: 600" href="./services.html">here</a>
         </p>
+      </div>
+      <div>
+        <button 
+          onclick="location.href='https://donate.ctfoodbank.org/production?cl=COFB&pg=main-dynamic&amt=40,80,120,160&tribute=on&coverfee=on&value=2&ref=nozip&source=donate_online'"
+          type="button"
+        >
+          Donate Here
+        </button>
       </div>
     </div>
     <footer>
       <hr />
       <a href="https://twitter.com/CTFoodBank"><i class="fa fa-twitter"></i></a>
-      <a href="https://www.instagram.com/ctfoodbank"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.instagram.com/ctfoodbank"
+        ><i class="fa fa-instagram"></i
+      ></a>
     </footer>
   </body>
 </html>
